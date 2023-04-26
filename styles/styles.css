@@ -1,0 +1,56 @@
+body {
+    max-width: 1440px;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    padding-top:10%;
+    padding-bottom: 10%;
+    font-size: 15px;
+}
+.main-container {
+    max-width: 23%;
+    height: 30%;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    padding-top: 13px;
+    display: flex;
+    justify-content: center;
+}
+.QR-code-container {
+    max-width: 91%;
+
+}
+
+.QR-pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.QR-text-header {
+    display: flex;
+    text-align: center;
+    width: 92%;
+    padding-left: 10px;
+}
+
+.QR-text-header h1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 22px;
+}
+
+.QR-text-body {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 92%;
+    padding-left: 10px;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+
+.QR-text-body h3 {
+    font-size: 15px;
+    margin-top: 0px;
+}
